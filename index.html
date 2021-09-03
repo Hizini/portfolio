@@ -1,0 +1,242 @@
+<!DOCTYPE>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <title>KHJ's Portfolio</title>
+    </head>
+    <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+        <!-- nav -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span> 
+                        <span class="icon-bar"></span>                         
+                    </button>
+                    <a class="navbar-brand" href="#myPage">KHJ's Portfolio</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#skills">SKILLS</a></li>
+                        <li><a href="#projects">PROJECTS</a></li>
+                        <li><a href="#contact">CONTACT</a></li>                    
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- intro -->
+        <div class="container-fluid intro-bg text-center">
+        <h2 style="margin-top: 50px">kim heejin's portfolio</h2>
+             <br>
+            <img src="./img/khj1.jpg" class="img-responsive img-circle" id="intro-img" style="display:inline" alt="KHJ" width="250" height="250">
+            <h2 style="margin-top: 50px">Kim HeeJin</h2>
+            <h4 style="margin-top: 30px"><strong>Frontend Developer</strong>
+                <br>
+                    안녕하세요. 항상 <strong>탄탄한 웹 구조, 기억에 남는 디자인, 가치 있는 기능</strong>을 생각하는 지원자 입니다.</h4>    
+            <h5>@Hizini</h5>        
+        </div>
+
+        <!-- about -->
+        <div id="about" class="container-fluid about-bg text-center">
+            <h2>About Me</h2>
+            <div class="row">
+                <div class="container" id=about-container>
+                    <div class="col-sm-4">
+                        <img src="./img/khj2.jpg" alt="khj" class="img-responsive img-rounded" >
+                    </div>
+                    <div class="col-sm-8 text-left">
+                        <h2 style="font-weight: 400; font-size: 24px" >쉽고, 유의미하며, 인상깊게 표현하는 재미를 아는 김희진입니다 :)</h2>
+                        <p>알기 쉽게 구성되어있는 HTML 뼈대에 CSS와 JavaScript를 활용한 동적 모션을 좋아하고,
+                            <br>인터렉티브한 웹을 구현할 수 있는 Canvas / WebGL, VR/AR/메타버스에 관심이 많습니다.
+                            <br> 또한, 사용자의 입장에서 고민하는 습관으로 향후 더 나은 방향으로 나아가고자 합니다.
+                            <br><br>저는 간단한 프로젝트들을 진행하며 성취감과 즐거움을 얻었으며, 
+                            <br>프론트엔드 개발자로 제 가능성을 보았습니다.   
+                            <br>하고자하는 일에 대해 성취감과 즐거움 느끼기에 끊임없이 발전하고 싶고, 
+                            <br>프론트엔드 개발자로서 많은 사람들에게 유의미한 영향력을 미치는 사람이 되고 싶습니다.
+                            <br><br>목표를 향한 의지, 신선하고 독창적인 아이디어, 밝은 에너지로
+                            <br>개발자 김희진의 길을 걷는 것.
+                            <br>저의 꿈이자 목표입니다.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- skills -->
+        <div id="skills" class="container-fluid skills-bg text-center">
+            <h2>skills</h2>
+            <br>
+            <div class="row slideanim">
+                <div class="col-sm-3">
+                    <i class="fab fa-html5 fa-7x" style="color: #E55125"></i>
+                    <h3>HTML</h3>
+                </div>
+                <div class="col-sm-3">
+                    <i class="fab fa-css3-alt fa-7x" style="color: #0A73B8"></i>
+                    <h3>CSS</h3>
+                </div>
+                <div class="col-sm-3">
+                    <i class="fab fa-js-square fa-7x" style="color: #E5A228"></i>    
+                    <h3>Javascript</h3>
+                </div>
+                 <div class="col-sm-3">
+                    <i class="fab fa-vuejs fa-7x" style="color: #3fb37f"></i>
+                    <h3>VueJS</h3>
+                </div>
+            </div>
+                <br><br>
+            <div class="row slideanim">
+                <div class="col-sm-3">
+                    <i class="fab fa-react fa-7x" style="color: #61dafb"></i>    
+                    <h3>React</h3>
+                </div>
+                <div class="col-sm-3">
+                    <i class="fab fa-git fa-7x"></i>
+                    <h3>Git</h3>
+                </div>
+                <div class="col-sm-3">
+                    <i class="fab fa-bootstrap fa-7x" style="color: #0D0437"></i>
+                    <h3>bootstrap</h3>
+                </div>
+                <div class="col-sm-3">
+                    <i class="fab fa-python fa-7x" style="color: #2962ff"></i>    
+                    <h3>Python</h3>
+                </div>
+            </div> 
+        </div>
+
+        <!-- projects -->
+        <div id="projects" class="container-fluid projects-bg text-center">
+            <h2>Projects</h2>
+            <div class="row text-center slideanim">
+                <div class="col-sm-3">
+                <div class="thumbnail">
+                    <a href="#paint-demo" data-toggle="collapse">
+                        <img src="./img/paintJS.JPG" alt="그림판" >
+                        <p><strong>그림판 구현하기</strong></p>
+                        <p>2021.8</p>
+                        
+                           <p><a href="https://hizini.github.io/CanvasPaint/" class="btn btn-default" role="button" target="_blank">Page</a>
+                            <a href="https://github.com/Hizini/CanvasPaint" class="btn btn-default" role="button"target="_blank">Code</a></p>
+                       
+                    </a>
+                </div>
+                </div>
+                <div class="col-sm-3">
+                <div class="thumbnail">
+                    <a href="#fish-demo" data-toggle="collapse">
+                        <img src="./img/fish.JPG" alt="Fish Game">
+                        <p><strong>물고기 게임</strong></p>
+                        <p>2021.8</p>
+                        
+                           <p><a href="https://hizini.github.io/FishGame/" class="btn btn-default" role="button" target="_blank">Page</a>
+                            <a href="https://github.com/Hizini/FishGame" class="btn btn-default" role="button"target="_blank">Code</a></p>
+                        
+                    </a>
+                </div>
+                </div>
+                <div class="col-sm-3">
+                <div class="thumbnail">
+                    <a href="#dino-demo" data-toggle="collapse">
+                        <img src="./img/3Dchromegame.png" alt="Dinosaur Game" >
+                        <p><strong>구글 공룡 게임(3D)</strong></p>
+                        <p>2021.8</p>
+                        
+                            <p><a href="https://hizini.github.io/3DDino_Game/" class="btn btn-default" role="button" target="_blank">Page</a>
+                            <a href="https://github.com/Hizini/3DDino_Game" class="btn btn-default" role="button"target="_blank">Code</a></p>
+                      
+                    </a>
+                </div>
+                </div>
+                <div class="col-sm-3">
+                <div class="thumbnail">
+                    <a href="#balloon-demo" data-toggle="collapse">
+                        <img src="./img/balloon.JPG" alt="Balloon Game" >
+                        <p><strong>열기구 게임</strong></p>
+                        <p>2021.8</p>
+                       
+                            <p><a href="https://hizini.github.io/BalloonGame/" class="btn btn-default" role="button" target="_blank">Page</a>
+                            <a href="https://github.com/Hizini/BalloonGame" class="btn btn-default" role="button"target="_blank">Code</a></p>
+                        
+                    </a>
+                </div>
+                </div>
+                <div class="col-sm-3">
+                <div class="thumbnail">
+                    <a href="#movie-demo" data-toggle="collapse">
+                        <img src="./img/movieapp.JPG" alt="Movie App" >
+                        <p><strong>TORRENT 영화순위</strong></p>
+                        <p>2021.8</p>
+                        
+                            <p><a href="https://hizini.github.io/movie_app_Hizini/#/" class="btn btn-default" role="button" target="_blank">Page</a>
+                            <a href="https://github.com/Hizini/movie_app_Hizini" class="btn btn-default" role="button"target="_blank">Code</a></p>
+                        
+                    </a>
+                </div>
+                </div>
+                <div class="col-sm-3">
+                <div class="thumbnail">
+                    <a href="#canvas1-demo" data-toggle="collapse">
+                        <img src="./img/canvas1.JPG" alt="Canvas EX1" >
+                        <p><strong>회전하는 사각형</strong></p>
+                        <p>2021.8</p>
+                      
+                            <p><a href="https://hizini.github.io/Canvas_Interactive-Ex1/" class="btn btn-default" role="button" target="_blank">Page</a>
+                            <a href="https://github.com/Hizini/Canvas_Interactive-Ex1" class="btn btn-default" role="button"target="_blank">Code</a></p>
+                        
+                    </a>
+                </div>
+                </div>
+                <div class="col-sm-3">
+                <div class="thumbnail">
+                    <a href="#sheep-demo" data-toggle="collapse">
+                        <img src="./img/sheep.JPG" alt="Canvas EX2" >
+                        <p><strong>양떼 랜덤 생성</strong></p>
+                        <p>2021.7</p>
+
+                            <p><a href="https://hizini.github.io/Canvas_Interactive-Ex2/" class="btn btn-default" role="button" target="_blank">Page</a>
+                            <a href="https://github.com/Hizini/Canvas_Interactive-Ex2" class="btn btn-default" role="button"target="_blank">Code</a></p>
+
+                    </a>
+                </div>
+                </div>
+                <div class="col-sm-3">
+                <div class="thumbnail">
+                    <a href="#eyes-demo" data-toggle="collapse">
+                        <img src="./img/eyes.JPG" alt="Canvas Ex3" >
+                        <p><strong>마우스를 따라오는 눈</strong></p>
+                        <p>2021.7</p>
+                                                    <p><a href="https://hizini.github.io/Canvas_Interactive-Ex3/" class="btn btn-default" role="button" target="_blank">Page</a>
+                            <a href="https://github.com/Hizini/Canvas_Interactive-Ex3" class="btn btn-default" role="button"target="_blank">Code</a></p>
+                    </a>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!-- contact -->
+        <div id="contact" class="container-fluid contact-bg text-center">
+            <h2 class="">CONTACT</h2>
+            <p><i class="fas fa-envelope"></i></span> ejfdnrl@naver.com</p>
+            <p><i class="fas fa-sms"> </i>KaKao Talk ID : ejfdnrl </p>
+            <p><i class="fab fa-github"></i> <a href="https://github.com/Hizini" target="_blank" class="contact-link">Hizini's Github Addres</a></p>
+        </div>
+        <!-- footer -->
+        <footer class="container-fluid footer-bg text-center">
+            <a href="#myPage" title="To Top">
+                <span class="glyphicon glyphicon-chevron-up"></span>
+            </a>
+            <p style="color:white";>Frontend Developer <strong>KIM HEE JIN</strong></p> 
+            <p style="color:white";>© 2021. Kim HeeJin. All rights reserved.</p>
+        </footer>       
+    </body>
+    <script src="app.js"></script>
+</html>
